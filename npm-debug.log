@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin/node',
+1 verbose cli   '/Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/brendan.quinn/Documents/Dev/8-bit-mario',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package.tgz not in flight; packing
+9 info lifecycle 8-bit-mario@1.0.5~prepublish: 8-bit-mario@1.0.5
+10 verbose lifecycle 8-bit-mario@1.0.5~prepublish: unsafe-perm in lifecycle true
+11 verbose lifecycle 8-bit-mario@1.0.5~prepublish: PATH: /Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/brendan.quinn/Documents/Dev/8-bit-mario/node_modules/.bin:/usr/local/share/python/:/Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin:/usr/local/share/python/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+12 verbose lifecycle 8-bit-mario@1.0.5~prepublish: CWD: /Users/brendan.quinn/Documents/Dev/8-bit-mario
+13 silly lifecycle 8-bit-mario@1.0.5~prepublish: Args: [ '-c', 'npm run build' ]
+14 silly lifecycle 8-bit-mario@1.0.5~prepublish: Returned: code: 0  signal: null
+15 verbose tar pack [ '/Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package.tgz',
+15 verbose tar pack   '/Users/brendan.quinn/Documents/Dev/8-bit-mario' ]
+16 verbose tarball /Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package.tgz
+17 verbose folder /Users/brendan.quinn/Documents/Dev/8-bit-mario
+18 verbose addLocalTarball adding from inside cache /Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package.tgz
+19 silly cache afterAdd 8-bit-mario@1.0.5
+20 verbose afterAdd /Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package/package.json not in flight; writing
+21 verbose afterAdd /Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package/package.json written
+22 silly publish { name: '8-bit-mario',
+22 silly publish   version: '1.0.5',
+22 silly publish   description: 'A React component that creates an image of Mario and run across the screen.',
+22 silly publish   repository:
+22 silly publish    { type: 'git',
+22 silly publish      url: 'git+https://github.com/Mathdrquinn/8-Bit-Mario.git' },
+22 silly publish   main: 'index.js',
+22 silly publish   scripts:
+22 silly publish    { build: 'PATH=$(npm bin):$PATH babel ./lib/8-Bit-Mario.jsx -o ./lib/8-Bit-Mario.js --presets=stage-0,es2015,react',
+22 silly publish      dev: 'webpack-dev-server --content-base lib/example --debug --inline --devtool source-map --inline --hot --progress --colors',
+22 silly publish      prepublish: 'npm run build' },
+22 silly publish   keywords: [ 'Mario', '8-bit', 'react' ],
+22 silly publish   author: { name: 'Brendan Quinn', email: 'quinn.197@gmail.com' },
+22 silly publish   license: 'MIT',
+22 silly publish   devDependencies:
+22 silly publish    { 'babel-cli': '^6.18.0',
+22 silly publish      'babel-core': '^6.17.0',
+22 silly publish      'babel-loader': '^6.2.0',
+22 silly publish      'babel-plugin-add-module-exports': '^0.1.2',
+22 silly publish      'babel-plugin-react-html-attrs': '^2.0.0',
+22 silly publish      'babel-plugin-transform-class-properties': '^6.3.13',
+22 silly publish      'babel-plugin-transform-decorators-legacy': '^1.3.4',
+22 silly publish      'babel-preset-es2015': '^6.18.0',
+22 silly publish      'babel-preset-react': '^6.3.13',
+22 silly publish      'babel-preset-stage-0': '^6.3.13',
+22 silly publish      bootstrap: '^3.3.7',
+22 silly publish      'cross-env': '^3.1.3',
+22 silly publish      'css-loader': '^0.26.1',
+22 silly publish      'postcss-loader': '^1.2.1',
+22 silly publish      react: '^15.4.1',
+22 silly publish      'react-dom': '^15.3.0',
+22 silly publish      'sass-loader': '^4.1.0',
+22 silly publish      'style-loader': '^0.13.1',
+22 silly publish      webpack: '^1.12.9',
+22 silly publish      'webpack-dev-server': '^1.16.1' },
+22 silly publish   readme: '# 8-Bit-Mario\n## Usage\n### Install\n\n    npm install 8-bit-mario\n    \n### Implementation\n\n    ...\n    \n    import Mario from \'8-bit-mario\';\n    \n    ...\n    \n    class DisplaysMario() {\n        constructor() {\n            super()\n        }\n        \n        render (\n            <Mario></Mario>\n        );\n    }\n    \n![8-Bit-Mario](./8-Bit-Mario.gif "8-Bit-Mario")',
+22 silly publish   readmeFilename: 'README.md',
+22 silly publish   gitHead: '08ca35c297e3f3fa9a5bc6d67fcad0c424136946',
+22 silly publish   bugs: { url: 'https://github.com/Mathdrquinn/8-Bit-Mario/issues' },
+22 silly publish   homepage: 'https://github.com/Mathdrquinn/8-Bit-Mario#readme',
+22 silly publish   _id: '8-bit-mario@1.0.5',
+22 silly publish   _shasum: 'a1b4ea74dfc6c4034ceeb6a670f6996150d7e5ac',
+22 silly publish   _from: '.' }
+23 verbose getPublishConfig undefined
+24 silly mapToRegistry name 8-bit-mario
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/8-bit-mario
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/brendan.quinn/.npm/8-bit-mario/1.0.5/package.tgz
+30 verbose request uri https://registry.npmjs.org/8-bit-mario
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 12:41:33 PM
+33 verbose request using bearer token for auth
+34 verbose request id 21a84843c042a0eb
+35 http request PUT https://registry.npmjs.org/8-bit-mario
+36 http 403 https://registry.npmjs.org/8-bit-mario
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 19 Dec 2016 17:41:34 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-ord1743-ORD',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1482169294.192536,VS0,VE802',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/brendan.quinn/.npm/registry.npmjs.org/8-bit-mario on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.5." : 8-bit-mario
+40 verbose stack     at makeError (/Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/node_modules/request/request.js:198:22)
+40 verbose stack     at emitTwo (events.js:87:13)
+40 verbose stack     at Request.emit (events.js:172:7)
+40 verbose stack     at Request.<anonymous> (/Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+40 verbose stack     at emitOne (events.js:82:20)
+40 verbose stack     at Request.emit (events.js:169:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/brendan.quinn/.nvm/versions/node/v5.4.0/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+41 verbose statusCode 403
+42 verbose pkgid 8-bit-mario
+43 verbose cwd /Users/brendan.quinn/Documents/Dev/8-bit-mario
+44 error Darwin 16.1.0
+45 error argv "/Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin/node" "/Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin/npm" "publish"
+46 error node v5.4.0
+47 error npm  v3.3.12
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.5." : 8-bit-mario
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
