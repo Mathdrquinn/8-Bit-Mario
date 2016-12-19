@@ -1,10 +1,10 @@
 {
   "name": "8-bit-mario",
-  "version": "1.0.2.1",
+  "version": "1.0.4",
   "description": "A React component that creates an image of Mario and run across the screen.",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "PATH=$(npm bin):$PATH babel ./lib/8-Bit-Mario.jsx -o ./lib/8-Bit-Mario.js --presets=stage-0,es2015,react",
     "dev": "webpack-dev-server --content-base lib/example --debug --inline --devtool source-map --inline --hot --progress --colors",
     "prepublish": "npm run build"
   },
@@ -16,6 +16,7 @@
   "author": "Brendan Quinn <quinn.197@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.18.0",
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
