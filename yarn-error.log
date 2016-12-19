@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin/node /Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin/yarn
+
+PATH: 
+  /usr/local/share/python/:/Users/brendan.quinn/.nvm/versions/node/v5.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.18.1
+
+Node version: 
+  5.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "8-bit-mario",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Mario",
+      "8-bit",
+      "react"
+    ],
+    "author": "Brendan Quinn <quinn.197@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "react": "^15.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:856:11)
+      at TLSWrap.onread (net.js:544:26)

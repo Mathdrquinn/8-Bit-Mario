@@ -1,0 +1,39 @@
+{
+  "name": "8-bit-mario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack-dev-server --content-base lib/example --debug --inline --devtool source-map --inline --hot --progress --colors",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "Mario",
+    "8-bit",
+    "react"
+  ],
+  "author": "Brendan Quinn <quinn.197@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "bootstrap": "^3.3.7",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.26.1",
+    "postcss-loader": "^1.2.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.3.0",
+    "sass-loader": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
