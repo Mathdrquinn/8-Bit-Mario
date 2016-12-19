@@ -1,2 +1,1 @@
-import Mario from './dist/8-Bit-Mario.min';
-export default Mario;
+module.exports = require('./dist/8-Bit-Mario.min');
