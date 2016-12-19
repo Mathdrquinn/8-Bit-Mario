@@ -1,7 +1,7 @@
 {
   "name": "8-bit-mario",
   "version": "1.0.0",
-  "description": "",
+  "description": "A React component that creates an image of Mario and run across the screen.",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
