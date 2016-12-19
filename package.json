@@ -1,7 +1,11 @@
 {
   "name": "8-bit-mario",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React component that creates an image of Mario and run across the screen.",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Mathdrquinn/8-Bit-Mario"
+  },
   "main": "index.js",
   "scripts": {
     "build": "PATH=$(npm bin):$PATH babel ./lib/8-Bit-Mario.jsx -o ./lib/8-Bit-Mario.js --presets=stage-0,es2015,react",
