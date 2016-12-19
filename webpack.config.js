@@ -3,13 +3,13 @@ var webpack = require('webpack');
 var path = require("path");
 
 const SRC = path.join(__dirname, 'lib');
-const APP = path.join(__dirname, 'dist');
+const APP = path.join(__dirname, 'lib/example');
 
 
 module.exports = {
     context: __dirname,
     devtool: debug ? "inline-sourcemap" : null,
-    entry: debug ? path.join(SRC, 'example', 'index.jsx') : path.join(SRC, '8-Bit-Mario.jsx'),
+    entry: path.join(SRC, 'example', 'src', 'index.jsx'),
     module: {
         loaders: [
             {
