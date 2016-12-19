@@ -1,6 +1,6 @@
 {
   "name": "8-bit-mario",
-  "version": "1.0.2",
+  "version": "1.0.2.1",
   "description": "A React component that creates an image of Mario and run across the screen.",
   "main": "index.js",
   "scripts": {

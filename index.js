@@ -1,1 +1,1 @@
-module.exports = require('./dist/8-Bit-Mario.min');
+module.exports = require('./lib/8-Bit-Mario.jsx');
