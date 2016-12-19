@@ -9,7 +9,7 @@ const APP = path.join(__dirname, 'dist');
 module.exports = {
     context: __dirname,
     devtool: debug ? "inline-sourcemap" : null,
-    entry: path.join(SRC, 'example', 'index.jsx'),
+    entry: debug ? path.join(SRC, 'example', 'index.jsx') : path.join(SRC, '8-Bit-Mario.jsx'),
     module: {
         loaders: [
             {
